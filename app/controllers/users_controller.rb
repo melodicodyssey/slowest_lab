@@ -21,6 +21,8 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.all
+    @users = User.limit(100)
   end
 end
+
+# Shadow Huntaz

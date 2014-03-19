@@ -50,3 +50,5 @@ end
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+
+gem "kaminari", "~> 0.15.1"
